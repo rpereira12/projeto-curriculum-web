@@ -1,0 +1,135 @@
+body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+}
+
+textarea {
+    resize: none;
+}
+
+
+/*Menu Superior*/
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px;
+    opacity:0.9;
+}
+
+.navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5;
+}
+
+.navbar-nav li a:hover {
+    color: #fff;
+}
+
+.navbar-nav li.active a {
+    color: #fff;
+    background-color:#29292c;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/*Container sobre*/
+
+#sobre-mim{
+    margin-top: 50px;
+}
+
+.dev-tools-icons{
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    opacity: 0.5;
+}
+
+.rodrigo{
+    width: 130px;
+    border: 5px solid #f1f1f1;
+}
+
+/*Animações container sobre*/
+
+.dev-tools-icons:hover{
+    border-color: #f1f1f1;
+    opacity: 1;
+    transition: 1s ease-out;
+}
+
+
+/*--------------------------------------------------*/
+
+/*Menu Curriculum*/
+
+.curriculum-imgs{
+    border: 4px solid rgb(40,40,40);
+}
+
+#curriculum{
+    background: #2d2d30;
+    color: #bdbdbd;
+}
+
+
+/*--------------------------------------------------*/
+
+/*Menu Perfis*/
+
+
+
+
+/*Rodapé*/
+
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+}
+
+footer a {
+    color: #f5f5f5;
+}
+
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
+
+/*------------------------------*/
+
+/* Animação de Slide */
+
+.slideanim {visibility:hidden;}
+.slide {
+    transition:ease-in;
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    animation-duration: 2s; 
+    -webkit-animation-duration: 2s;
+    visibility: visible; 
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
