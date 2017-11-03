@@ -14,12 +14,16 @@ textarea {
     margin-bottom: 0;
     background-color: #2d2d30;
     border: 0;
-    font-size: 11px;
+    font-size: 13px;
     opacity:0.9;
 }
 
 .navbar li a, .navbar .navbar-brand { 
     color: #d5d5d5;
+}
+
+.navbar li a{
+    text-transform: uppercase;
 }
 
 .navbar-nav li a:hover {
@@ -33,6 +37,20 @@ textarea {
 
 .navbar-default .navbar-toggle {
     border-color: transparent;
+}
+
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555;
+}
+
+.dropdown-menu li a {
+    color: #000;
+}
+
+
+.dropdown-menu li a:hover {
+    background-color: cadetblue;
 }
 
 /*Container sobre*/
